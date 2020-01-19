@@ -39,3 +39,29 @@
        * JS문법을 commonJS로 바꾸기 위해 사용됨
      * babel/preset...
        * ...문법에 맞춰 바꿔주는 함수들이 모여있음
+
+### 📌Package.json
+
+```json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "postinstall": "webpack --mode production"
+  },
+```
+
+* `dev` --> 개발모드로 webpack 시작
+* `build` --> 배포모드로 webpack 시작
+* `postinstall` --> `npm install`시 `build`스크립트와 동일하게 실행
+
+---------
+
+
+
+## React
+
+### index.html
+
+React를 랜더링하기 위한 단일 페이지 생성
+
