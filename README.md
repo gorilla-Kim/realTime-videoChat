@@ -65,3 +65,30 @@
 
 React를 랜더링하기 위한 단일 페이지 생성
 
+
+
+### index.js
+
+라우팅을 하기위한 공간
+
+* `react-router-dom`
+  * `BrowserRouter`
+  * `Switch`
+  * `Route`
+
+
+
+### Home.js
+
+
+
+### Room.js
+
+**getUserMedia**
+
+* ```javascript
+  navigator.getUserMedia
+  ```
+
+* 사용자 PC에서 미디어의 스트림을 얻어내는 MediaStream의 API다. 
+
